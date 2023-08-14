@@ -543,6 +543,74 @@ header.sticky{
 
 }
 
+@media(max-width: 400px) {
+    :root {
+        --big-font: 4rem;
+        --p-font: 15px;
+        transition: 0.2s;
+    }
+    .btn {
+        padding: 9px 25px;
+    }
+
+    .home-text h1 {
+        font-size: 3rem;
+        margin: 23px 0;
+    }
+
+    .about-text h2{
+        margin-top: -100px;
+        font-size: 32px;
+    }
+
+    .about-img img{
+        height: 100%;
+        margin-top: -85px;
+    }
+
+    .capability{
+        margin-top: -140px;
+        margin-right: -22px;
+    }
+
+    .box{
+        padding: 0 6%;
+    }
+
+    .box h5{
+        text-align: center;
+        margin-right: -25px;
+    }
+
+    .box p{
+        text-align: center;
+        margin-right: -25px;
+    }
+
+    .box-web{
+        padding: 0 5%;
+    }
+
+    .box-web h5{
+        text-align: center;
+        margin-right: -45px;
+    }
+
+    .box-web p{
+        text-align: center;
+        margin-right: -45px;
+    }
+
+    .portofolio{
+        margin-top: -100px;
+    }
+
+
+    
+}
+
+
+
 /* Animasi mantul2 img */
 .home-img img {
     animation: imgg 2s ease-in-out infinite;
