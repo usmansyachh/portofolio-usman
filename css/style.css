@@ -484,9 +484,6 @@ header.sticky{
         --p-font: 15px;
         transition: 0.2s;
     }
-    .btn {
-        padding: 9px 28px;
-    }
 
     .home-text h1 {
         font-size: 3rem;
@@ -508,14 +505,6 @@ header.sticky{
 
     .portofolio{
         margin-top: -100px;
-    }
-
-    .box{
-        padding: 0% 10%;
-    }
-
-    .box-web{
-        padding: 0% 10%;
     }
 
 }
