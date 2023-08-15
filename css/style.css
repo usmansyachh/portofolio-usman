@@ -158,7 +158,6 @@ section {
     background: #141414;
     border: 2px solid #141414;
     color: var(--text-color);
-    margin-left: 10px;
 }
 .two:hover {
     color: #141414;
@@ -309,7 +308,6 @@ header.sticky{
 }
 
 .box{
-    border-radius: 10px;
     cursor: pointer;
     transition: all .35s;
     text-align: justify;
@@ -506,7 +504,10 @@ header.sticky{
     .portofolio{
         margin-top: -100px;
     }
-
+    
+    .box img{
+        margin-left: -10px;
+    }
 }
 
 /* Animasi mantul2 img */
